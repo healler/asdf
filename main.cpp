@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
-
+void hello();
 int main() {
-	cout << "hello world";
+	hello();
 	return 0;
+}
+void hello() {
+	cout << "hello world";
 }
